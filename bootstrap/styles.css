@@ -1,11 +1,5 @@
-body{
-    margin: 0;
-}
-
-.col{background: red;}
-.col:nth-child(2){
-    background: blue;
-}
-.col:nth-child(3){
-    background: green;
-}
+.border-end {
+    border-right: 1px solid #dee2e6 !important;
+  }
+  
+ 
