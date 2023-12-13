@@ -1,5 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@500&family=Roboto:ital,wght@1,300&display=swap');
 .border-end {
     border-right: 1px solid #dee2e6 !important;
   }
+
   
- 
+  .navbar{
+    background: linear-gradient(to right, rgb(255, 105, 180), rgb(135, 206, 250));
+  }
+
+  .navbar-brand {
+    font-size: 30px; 
+    font-family: 'Alata', sans-serif;
+  }
+
+  .nav-item {
+    font-family: 'Alata', sans-serif;
+  }
+
+  .title{
+    font-family: 'Alata', sans-serif;
+    color:black;
+  }
+  
+  .card{
+    font-family: 'Inter', sans-serif;
+  }
+  
+
+  .col-sm-4 {
+    max-height: 100%; 
+    overflow-y: auto;
+  }
+
+  .btn{
+    background: linear-gradient(to right, rgb(247, 165, 206), rgb(249, 240, 246));
+
+  }

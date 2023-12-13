@@ -11,12 +11,16 @@
     "
     />
 
+    <link rel="stylesheet" href="styles.css">
+
+
+
     <title>Email Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">mail</a>
+        <a class="navbar-brand" href="#">MAIL</a>
     
         <!--toggle button-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,19 +56,18 @@
       </div>
     </nav>
     <!--inbox and mail-->
-    <div class="container d-flex flex-column">
+    <div class="container vh-100">
     
 
-      <div class="row">
+      <div class="row mt-3 h-100">
       
-      <div class="row flex-grow-1">
     
         <div class="col-sm-4 border-end h-100">
           
-          <h2 class="text-primary">Inbox</h2>
+          <h2 class="title">Inbox</h2>
 
           <form class="d-flex mb-3" role="search" >
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control me-2 border-2px" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
     
@@ -94,13 +97,31 @@
                Haruka send you $300  
             </div>
           </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+               Kim
+            </div>
+            <div class="card-body">
+               Hey! What are you doing? 
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+               Flight confirmation
+            </div>
+            <div class="card-body">
+               We are looking forward to you flight with us soon! 
+            </div>
+          </div>
     
 
         </div>
     
-        <div class="col-sm-8 flex-grow-1">
+        <div class="col-sm-8 ml-4">
           
-          <h2 class="text-primary">Mail</h2>
+          <h2 class="title">Mail</h2>
 
           <div class="card">
             <div class="card-header">
@@ -124,7 +145,7 @@
             </div>
           
             <div class="card-footer d-flex justify-content-end">
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn">Send</button>
             </div>
           
           </div>
